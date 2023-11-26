@@ -1,0 +1,28 @@
+***********YOUtube downloader****************
+
+# this code is written in python to download youtube videos:
+
+import yt_dlp
+
+# enter the url of the video
+url = input("Enter the url : ")
+
+ydl_opts = {}
+
+with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+    ydl.download([url])
+
+print("the video have been downloaded")
+
+
+# before you do anything you must download somethings:
+ 
+in the text editor you use like {{pycharm}}: you can go to the terminal and downlaod this:
+
+$ pip install yt_dlp 
+
+
+**************THE END****************
+
+
+ 
